@@ -10,3 +10,8 @@ sitemaps:
         destination: /blog/sitemap.xml
         hreflang: en
         alternate: /{path}
+      de:
+      source: /de/blog/query-index.json
+      alternate: /de/{path}.html
+      destination: /de/sitemap.xml
+      hreflang: de-DE
