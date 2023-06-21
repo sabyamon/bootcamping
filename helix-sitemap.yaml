@@ -5,13 +5,14 @@ sitemaps:
     origin: https://miloacademy.adobe.com
     lastmod: YYYY-MM-DD
     languages:
-      us:
+      default:
         source: /blog/query-index.json
         destination: /blog/sitemap.xml
         hreflang: en
         alternate: /{path}
+
       de:
       source: /de/blog/query-index.json
       destination: /de/blog/sitemap.xml
-      hreflang: de-DE
+      hreflang: de
       alternate: /de/{path}
